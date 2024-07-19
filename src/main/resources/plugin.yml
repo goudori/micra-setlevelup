@@ -1,0 +1,6 @@
+name: Micra_Fifteen
+version: '${version}'
+main: plugin.micra_fifteen.Main
+api-version: '1.20'
+commands:
+  setLevel:
