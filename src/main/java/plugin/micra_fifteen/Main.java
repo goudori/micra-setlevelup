@@ -28,7 +28,7 @@ public final class Main extends JavaPlugin implements Listener {
   @Override
   public void onEnable() {
     Bukkit.getPluginManager().registerEvents(this, this);
-    // setLevelコマンドを打つとLevelUpCommand.javaファイルにあるonCommandを実行する
+    // setLevelコマンドを打つとSetLevelUpCommand.javaファイルにあるonCommandを実行する
     getCommand("setLevel").setExecutor(new SetLevelCommand());
   }
 
